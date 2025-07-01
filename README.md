@@ -82,8 +82,12 @@ src/
    ```
    Modifier les variables dans `.env.local`:
    ```ini
+   
    DATABASE_URL="mysql://user:password@127.0.0.1:3306/task_manager?serverVersion=8.0"
    MAILER_DSN=smtp://user:pass@smtp.example.com:port
+   ```
+   ```yaml
+   docker run --name nda-media-db -e MYSQL_ROOT_PASSWORD=***REMOVED*** -e MYSQL_USER=user_01  -e MYSQL_PASSWORD=***REMOVED*** -e MYSQL_DATABASE=***REMOVED*** -p 3306:3306 -d mysql:8.0
    ```
 
 4. Initialiser la base de données
