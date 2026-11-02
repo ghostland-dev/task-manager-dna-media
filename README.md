@@ -327,3 +327,10 @@ server {
 ---
 
 Cette documentation couvre l'ensemble des aspects techniques et fonctionnels du projet Task Manager. Pour toute question complémentaire, veuillez consulter le dépôt GitHub ou contacter l'équipe de développement.
+
+## Author
+
+**Ismail.M**, Software Engineer & DevOps
+
+- GitHub: [@ghostland-dev](https://github.com/ghostland-dev)
+- Website: [ismail-mouyahada.com](https://www.ismail-mouyahada.com)
